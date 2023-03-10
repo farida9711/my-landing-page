@@ -1,0 +1,207 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(18, 50, 50);
+  font-family: 'Overpass', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Chivo', Georgia, 'Times New Roman', Times, serif;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Chivo', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  color: #1c7883;
+}
+
+h3 {
+  font-family: 'Chivo', Georgia, 'Times New Roman', Times, serif;
+  color: #1c7883;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+p {
+  font-family: 'Chivo', Georgia, 'Times New Roman', Times, serif;
+  color: #1c7883;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+h4 {
+  font-family: 'Chivo', Georgia, 'Times New Roman', Times, serif;
+  color: #1c7883;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+
+}
+
+
+.banner {
+  padding: 150px 0;
+  margin: 0;
+  background-image: url('/Users/faridaabdou/Desktop/Landing-page-ICADE/images/icade.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+}
+
+#banner-p {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.btn-white {
+  background-color:#ecedee;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 20px 50px;
+  font-weight: 600;
+
+  text-align: justify;
+  border-radius: 30px;
+
+}
+
+.container {
+  width: 900px;
+  margin: 50px auto;
+}
+
+.card-white {
+  background-color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white-img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+
+.btn-tag-dashed{
+  border: 1px dotted #04142d;
+  background: transparent;
+  color: #04142d;
+}
+.card-white-img2{
+  height: 400px;
+  width: 100%;
+  text-align: left;
+}
+
+.marseille {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin: 70px 0;
+  background-color: rgb(230, 230, 230);
+  padding: 10px 50px;
+}
+
+.marseille-img img{
+  width: 100%;
+}
+
+.btn-aqua{
+  background-color: rgb(46, 169, 169);
+  color: white;
+  border-radius: 4px;
+  border-style: none;
+
+}
+.btn-gris{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  border: 2px;
+  display: inline;
+  text-decoration: none;
+  border-style: dashed;
+  padding: 0px 10px;
+  grid-gap: 20px;
+  
+}
+
+.FOOTER{
+  background-color: #1c7883;
+  padding: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  text-decoration: none;
+
+}
+
+.Link-hover{
+text-decoration: none;
+font-family: 'Times New Roman', Times, serif;
+list-style-type: none;
+font-weight: 100px;
+}
+
+#list{
+  color: white;
+  font-size: 20px;
+  list-style: none;
+  padding-bottom: 10px;
+  margin-right: 10px;
+}
+
+#animation{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 30px;
+  color: rgb(46, 169, 169);
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein{
+  from{
+    margin-left: 100%;
+    width: 300%;
+
+  }
+  to{
+  margin-left: 0%;
+  width: 100%;
+  }
+}
+
+#footer{
+  list-style-type: none;
+  display: inline;
+  color: white;
+}
+#Link-hoverr{
+  padding: 10px;
+  list-style-type: none;
+  display: inline;
+  width: 200px;
+  height: 50px;
+  font-weight: lighter;
+  }
+
+  a{ 
+    text-decoration: none;
+  }
