@@ -46,7 +46,7 @@ h4 {
 .banner {
   padding: 150px 0;
   margin: 0;
-  background-image: url('/Users/faridaabdou/Desktop/Landing-page-ICADE/images/icade.png');
+  background-image: url('./images/icade.png');
   background-size: cover;
   background-position: center;
   text-align: center;
